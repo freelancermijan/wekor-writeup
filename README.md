@@ -3,7 +3,7 @@ sudo nmap -sV -sC -Pn 10.17.70.209
 echo "10.17.70.209 wekor.thm" | sudo tee -a /etc/hosts
 
 `Check http://wekor.thm/robots.txt file`
-
+```
 User-agent: *
 Disallow: /workshop/
 Disallow: /root/
@@ -14,7 +14,7 @@ Disallow: /crawler
 Disallow: /boot
 Disallow: /comingreallysoon
 Disallow: /interesting
-
+```
 
 Check all urls and found hint into this http://wekor.thm/comingreallysoon
 
